@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Vẻ Đẹp Việt Nam - Danh Lam Thắng Cảnh</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; background-color: #fdfcf0; }
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #b2cefe; 
+      border: none;
+    }
+    
+    .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+      color: #fff; font-weight: bold;
+    }
+
+    
+    footer {
+      background-color: #e3f2fd;
+      padding: 30px;
+      margin-top: 50px;
+    }
+    
+    
+    .carousel-inner img {
+      width: 100%;
+      height: 500px !important; 
+      object-fit: cover;
+    }
+
+    .carousel-caption {
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 15px;
+      padding: 20px;
+    }
+
+    
+    .place-card {
+      background: white;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+      transition: 0.3s;
+    }
+    .place-card:hover { transform: scale(1.02); }
+    .place-card img { border-radius: 10px; height: 180px; width: 100%; object-fit: cover; }
+
+    @media (max-width: 600px) {
+      .carousel-caption { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">VIETNAM TRAVEL</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Trang Chủ</a></li>
+        <li><a href="#">Giới Thiệu</a></li>
+        <li><a href="#">Điểm Đến</a></li>
+        <li><a href="#">Liên Hệ</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng Nhập</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
